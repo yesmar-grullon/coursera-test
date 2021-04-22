@@ -1,0 +1,39 @@
+a:hover {
+	cursor: pointer;
+}
+.navbar {
+	background-color: #337ab8;
+}
+.navbar-brand a {
+	color:#ffffff;
+	text-decoration: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #1b4365;
+    cursor: pointer;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #aaaaaa;
+}
+
+hr {
+	border-top: 1px solid #aaa;
+}
+.option-content {
+	background: #dddddd;
+	margin: 0px;
+	padding: 15px; 
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav{
+	    background-color: #1b4365;
+	}
+}
+
